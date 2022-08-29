@@ -1,0 +1,26 @@
+{
+  "name": "serversikisbotu",
+  "version": "4.0.0",
+  "description": "Raven sunucusuna özel yapılmış sunucu patlatma botu altyapısı.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ly3ssia",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "croxydb": "^0.0.7",
+    "discord.js": "^14.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "os": "^0.1.2"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
